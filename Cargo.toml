@@ -1,0 +1,12 @@
+[package]
+name = "chat_server"
+authors = ["Harsh Kumar Moroliya <rootkill.dedsec@gmail.com"]
+license = "MIT"
+version = "0.1.0"
+edition = "2018"
+readme = "README.md"
+repository = "https://github.com/H4RSH-K/chat_server"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = {version = "1", features = ["full"]}
